@@ -74,21 +74,21 @@ public class Application {
 
     public Integer getNumber() {
 
-        ioConsole.println("How many pets do you have?");
+        ioConsole.println("How many pets do you have?\n");
         Integer numberOfPets = ioConsole.getIntegerInput();
         return numberOfPets;
     }
 
     public String getType() {
 
-        ioConsole.println("What type of pet is pet number " + (i+1) + "? [Dog, Cat, Gecko, GoldFish, GuineaPig, or Parrot]");
+        ioConsole.println("What type of pet is pet number " + (i+1) + "? [Dog, Cat, Gecko, GoldFish, GuineaPig, or Parrot]\n");
         String type = ioConsole.getStringInput().toLowerCase();
         return type;
     }
 
     public String getName() {
 
-        ioConsole.println("What is the name of pet number " + (i+1) + "?");
+        ioConsole.println("What is the name of pet number " + (i+1) + "?\n");
         String name = ioConsole.getStringInput();
         return name;
     }
